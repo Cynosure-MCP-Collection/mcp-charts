@@ -1,0 +1,24 @@
+{
+  "name": "@cynosure-mcp/chart-artifacts",
+  "title": "Chart Artifacts",
+  "description": "Render Vega-Lite charts as SVG or high-resolution PNG artifacts for Cynosure conversations.",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@cynosure-mcp/chart-artifacts",
+      "version": "latest",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "CHART_ARTIFACTS_OUTPUT_DIR",
+          "description": "Directory where rendered chart files are saved. Defaults to an OS temp directory.",
+          "isRequired": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
