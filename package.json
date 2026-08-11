@@ -1,6 +1,7 @@
 {
   "name": "@cynosure-mcp/chart-artifacts",
-  "version": "0.1.0",
+  "mcpName": "io.github.andreasjhagen/chart-artifacts",
+  "version": "0.1.1",
   "description": "MCP server for rendering Vega-Lite chart artifacts as SVG or high-resolution PNG images.",
   "type": "module",
   "bin": {
@@ -9,11 +10,15 @@
   "files": [
     "dist",
     "server.json",
-    "README.md"
+    "README.md",
+    "icon.png"
   ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",

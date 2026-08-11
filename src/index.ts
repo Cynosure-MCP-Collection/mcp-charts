@@ -11,7 +11,7 @@ import * as vega from 'vega'
 import * as vegaLite from 'vega-lite'
 import { z } from 'zod'
 
-const VERSION = '0.1.0'
+const VERSION = '0.1.1'
 const DEFAULT_WIDTH = 1200
 const DEFAULT_HEIGHT = 720
 const MAX_DIMENSION = 2400
@@ -214,6 +214,7 @@ const server = new McpServer({
   title: 'Chart Artifacts',
   version: VERSION,
   description: 'Render Vega-Lite charts as SVG or high-resolution PNG artifacts for Cynosure conversations.',
+  icons: [{ src: 'https://unpkg.com/@cynosure-mcp/chart-artifacts@0.1.1/icon.png', mimeType: 'image/png' }],
 })
 
 server.registerTool('render_chart', {
