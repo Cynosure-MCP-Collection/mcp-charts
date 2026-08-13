@@ -26,5 +26,9 @@
         }
       ]
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/Cynosure-MCP-Collection/mcp-charts",
+    "source": "github"
+  }
 }
