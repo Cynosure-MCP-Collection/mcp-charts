@@ -15,7 +15,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "release:check": "node scripts/sync-version.mjs --check",
+    "version": "node scripts/sync-version.mjs && git add server.json"
   },
   "publishConfig": {
     "access": "public"
