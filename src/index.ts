@@ -218,7 +218,7 @@ const server = new McpServer({
 })
 
 server.registerTool('render_chart', {
-  annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: false },
+  annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   title: 'Render Chart',
   description: 'Render a complete Vega-Lite JSON spec as an SVG or high-resolution PNG chart artifact.',
   inputSchema: RenderChartInputSchema,
@@ -237,7 +237,7 @@ server.registerTool('render_chart', {
 })
 
 server.registerTool('quick_chart', {
-  annotations: { readOnlyHint: false, destructiveHint: true, idempotentHint: false, openWorldHint: false },
+  annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false },
   title: 'Quick Chart',
   description: 'Create a common chart from tabular data without writing a full Vega-Lite spec.',
   inputSchema: QuickChartInputSchema,
