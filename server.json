@@ -2,10 +2,10 @@
   "name": "io.github.andreasjhagen/chart-artifacts",
   "title": "Chart Artifacts",
   "description": "Render Vega-Lite charts as SVG or high-resolution PNG artifacts for Cynosure conversations.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "icons": [
     {
-      "src": "https://unpkg.com/@cynosure-mcp/chart-artifacts@0.2.0/icon.png",
+      "src": "https://unpkg.com/@cynosure-mcp/chart-artifacts@0.2.1/icon.png",
       "mimeType": "image/png"
     }
   ],
@@ -13,7 +13,7 @@
     {
       "registryType": "npm",
       "identifier": "@cynosure-mcp/chart-artifacts",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "transport": {
         "type": "stdio"
       },
